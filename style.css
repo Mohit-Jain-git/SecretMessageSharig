@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: lightgrey;
+  width: 70vw;
+  border: 15px solid green;
+  padding: 10px;
+  padding-bottom: 10px;
+  margin: 260px;
+  margin-top: 260px;
+  padding-bottom: 3px;
+  height: 348px;
+  text-align: center;
+  margin-top: 149px;
+}
+.row {
+  border: 2px sold #000000;
+  text-align: center;
+  margin: 53px;
+}
+
+.form {
+  border: 2px sold black;
+  text-align: center;
+  margin: 300px;
+}
+h2 {
+  margin-bottom: 50px;
+  margin-left: -45vw;
+}
+.btn {
+  padding: 10px;
+  background-color: rgb(80, 106, 255);
+  margin-left: -53vw;
+  width: 92px;
+  height: 45px;
+  font-size: larger;
+}
+.label {
+  width: 1000px;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-left: -8px;
+}
+
+input {
+  font-size: larger;
+}
+
+.label1 {
+  width: 1000px;
+  height: 48px;
+  margin-bottom: 20px;
+  margin-left: -8px;
+}
+
+.hide {
+  display: none;
+}
+
+form {
+  display: block;
+}
+.shift {
+  margin-left: -41vw;
+}
+#one {
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+@media (max-width: 948px) {
+  .container {
+    margin: 128px;
+  }
+  h2 {
+    margin-left: -36vw;
+  }
+  .label {
+    margin-left: -18px;
+    width: 63vw;
+  }
+  .shift {
+    margin-left: -21vw;
+  }
+  .label1 {
+    width: 60vw;
+    margin-left: -30px;
+  }
+}
+
+@media (max-width: 621px) {
+  .container {
+    margin: 57px;
+  }
+  h2 {
+    margin-left: -20vw;
+  }
+  .btn {
+    margin-left: -43vw;
+  }
+  .shift {
+    margin-left: -14vw;
+  }
+  .label1 {
+    width: 60vw;
+    margin-left: -5vw;
+  }
+}
